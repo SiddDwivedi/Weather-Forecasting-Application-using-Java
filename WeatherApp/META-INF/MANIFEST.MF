@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WeatherApp
+Bundle-SymbolicName: WeatherApp
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: WeatherApp.jar,
+ Siddhant/OneDrive/Desktop/project/WeatherApp-Servlet-Java-main/src/main/webapp/WEB-INF/lib/gson-2.8.5.jar,
+ Siddhant/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.36/tomcat-embed-core-9.0.36.jar,
+ src/main/webapp/WEB-INF/lib/gson-2.8.5.jar,
+ Apache Software Foundation/Tomcat 9.0/lib/servlet-api.jar
+Automatic-Module-Name: WeatherApp
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: MyPackage,
+ com.google.gson,
+ com.google.gson.annotations,
+ com.google.gson.internal,
+ com.google.gson.internal.bind,
+ com.google.gson.internal.bind.util,
+ com.google.gson.internal.reflect,
+ com.google.gson.reflect,
+ com.google.gson.stream
